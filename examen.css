@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+        font-family: 'Oswald', sans-serif;
+        font-size: 15px;
+        background-image: url(imagenes/lomas-centro.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
+        
+  }
+
+  /*---------------------header-------------------*/
+
+.top {
+    display: flex;
+    justify-content: right;
+
+}
+
+.logo {
+    margin: 2% 5% 5% 3%;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+
+                /*-Menu de navegación-*/
+
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 80px;
+    width: 100%;
+  }
+
+  .menu ul {
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: -5px;
+  }
+  .menu ul li {
+    display: inline-block;
+    margin: 30px;
+    font-weight: bold;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: .5s;
+  }
+
+  .menu ul li a:hover {
+      color: white;
+      transition: .2s;
+      cursor: pointer;
+  }
+  
+                /*-Encabezado-*/
+
+.titulo {
+      text-align: end; 
+      font-size: x-large;
+      color: black;
+      margin-right: 30px;
+      margin-top: 3%;
+  }
+
+.titulo h2 {
+    margin-right: 15px;
+    color: black;
+}
+
+.titulo h1 {
+      font-size: 2.2cm;
+      font-weight: bolder;
+      padding: 0%;
+      margin-left: 30%;  
+      transition:.4s;
+
+  }
+
+  
+.titulo h1:hover {
+  color:white;
+  transition: .4s;
+}
+
+.titulo h3 {
+    color: white;
+    padding: 0%;
+    margin-left: 35%;  
+    text-align: justify;
+}
+
+
+/*---------------------CENTRO-------------------*/
+
+.centro {
+  background-image: url(imagenes/palacio.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0vh;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  height: 600px;
+}
+
+.texto {
+  border-radius: 7px;
+  font-size: x-large;
+  width: 500px;
+  background-color: rgba(6, 129, 37, 0.65);
+  color: white;
+  font-weight: bolder;
+  margin: 10% 5% 0% 2%;
+  text-align: justify;
+  padding: 5px;
+  border: 5px solid rgb(6, 129, 37);
+}
+
+/*---------------------GPS-------------------*/
+
+.localizacion {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  height: 650px;
+}
+
+.ubicacion {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding:20px;
+}
+
+.ubicacion img {
+  width: 30%;
+  height: 80%;
+}
+
+.datos {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.datos h3 {
+  font-size: x-large;
+  padding: 25px;
+}
+
+/*------------------TEATRO-----------------*/
+
+.teatro {
+  background-image: url(imagenes/teatro-municipal.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0vh;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  height: 600px;
+}
+
+.text {
+  border-radius: 7px;
+  width: 500px;
+  color: white;
+  background-color: rgba(0, 120, 220, 0.65);
+  padding: 5px;
+  font-size: x-large;
+  font-weight: bolder;
+  text-align: justify;
+  border: 5px solid rgb(0, 120, 220);
+  margin: 0% 2% 10% 5%;
+
+}
+
+/*------------------FOOTER-----------------*/
+
+.contenedor-footer {
+  background: rgb(20, 20, 20);
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  
+}
+
+.redes {
+  justify-content: space-around;
+  margin-left: 3%;
+}
+
+.redes a {
+  padding: 15px;
+  color:white;
+  font-size: xx-large;
+}
+
+.redes a i {
+  transition: .4s;
+}
+
+#perfil {
+  border: 3px solid white;
+  border-radius: 80px;
+}
+
+.fa-instagram-square:hover {
+  font-size: 80px;
+  transition: .4s;
+}
+
+.fa-facebook-square:hover {
+  font-size: 80px;
+  transition: .4s;
+}
+
+.fa-envelope:hover {
+    font-size: 80px;
+    transition: .4s;
+}
+
+.fa-github:hover {
+  font-size: 80px;
+  transition: .4s;
